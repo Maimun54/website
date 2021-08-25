@@ -1,0 +1,59 @@
+	
+section#ourGellary {
+    background: #f2f8f9;
+}
+
+.gellaryBox {
+	
+width: 350px;
+	
+float:left;
+	
+margin: 25px;
+	
+position: relative;
+overflow:hidden;
+border-radius:10px;
+}
+
+.gellaryWrapper {
+    margin-top: 70px;
+}
+
+.box-inner {
+	transform:scale(0);
+    position: absolute;
+    top: 0px;
+    background: #11193da6;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 100%;
+    display: grid;
+    place-items: center;
+	transition:0.3s;
+	
+}
+
+.img-over {line-height: 32px;}
+
+.viewButton {
+    margin-top: 30px;
+	margin:auto;
+	padding:10px;
+	height:30px;
+	width:30px;
+	transition:0.3s;
+}
+.gellaryBox:hover .box-inner{
+	
+	
+	transform:scale(1);
+}
+.viewButton:hover{
+	background:orange;
+}
+
+
+
+

@@ -1,0 +1,455 @@
+*{margin:0;padding:0}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap');
+
+body{font-family:'Ubuntu', sans-serif;}
+
+h2,h3,h4,h5,h6{font-family: 'Ubuntu', sans-serif;}
+img{max-width: 100% }
+section {
+    padding: 80px 0px;
+}
+.service-box{
+	width: 350px;
+	float: left;
+	text-align:center;
+	padding: 39px;
+	margin-top:20px;
+	
+}
+
+
+
+.title-area{
+	width:700px;
+	text-align:center;
+	margin:auto;
+    
+}
+.title-area h2{ 
+    font-size:36px;
+	color:#11193d;
+	font-weight:700;
+	margin-bottom:10px;
+}
+
+.title-area h2 span{
+	font-weight:100;
+}
+.service-box img{
+	width:50px
+}
+
+.container {
+    
+display: table;
+    
+/* overflow:hidden; */
+    
+width:1300px;
+    
+margin:auto;
+}
+.service-box p{
+	color: #989898;
+	padding: 10px;
+
+}
+.service-box h2{
+	color:#11193d;
+}
+span.sub-title {
+    color: #c1bcbc;
+}
+
+ul.contactInfoList {
+    list-style: none;
+    width:800px;
+	float:left;
+	overflow:hidden;
+
+}
+
+ul.contactInfoList li {
+    float: left;
+    font-size: 13px;
+    line-height: 50px;
+    padding: 0px 10px;
+    border-right: 1px solid #ddd;
+}
+
+ul.contactInfoList li a {
+    text-decoration: none;
+    color: #444;
+	
+}
+
+select.lang-selector {
+    width: 100%;
+    border: none;
+    color: #666;
+}
+
+.lang-area {
+    width: 85px;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    float: right;
+    padding: 15px;
+}
+
+.pramaryHeader{
+	background: #0611449e;
+}
+}
+ul.contactInfoList li:first-child {
+    border-left: 1px solid #ddd;
+}
+
+.logoArea {
+    width: 130px;
+    float: left;
+}
+ul.pramaryMenue li {
+    float: left;
+	position:relative;
+}
+
+ul.pramaryMenue li a {
+	color: white;
+	text-decoration: none;
+	padding: 48px 18px;
+	display: block;
+	font-size: 15px;
+	}
+.logoArea img {
+    margin-top: 35px;
+}
+
+ul.pramaryMenue {
+    list-style: none;
+    display: table;
+    float: right;
+}
+.menuArea {
+    display: table;
+    float: right;
+    width: 800px;
+}
+ul.contactInfoList li a:hover {
+    color: orange;
+    transition: 0.3s;
+}
+ul.subMenu {
+	list-style: none;
+	background: #352a2a;
+	position: absolute;
+	top: 110px;
+	width: 250px;
+     transform:scaley(0);
+	 transform-origin:top;
+	 transition:0.3s;
+	}
+
+	
+ul.subMenu li {
+    float: none;
+}
+
+
+ul.subMenu li a {
+    padding: 10px 20px;
+}
+
+ul.pramaryMenue li:hover ul.subMenu{
+	transform:scaley(1);
+	}
+
+
+ul.subMenu li a:hover{
+	color:orange;
+	
+}
+.searchBoxWrapper {
+    background: white;
+    overflow: hidden;
+    width:270px;
+    position: absolute;
+    top: 114px;
+    right: 18px;
+	transform:scaleY(0);
+	transform-origin:top;
+	transition:0.3s
+}
+input#srchbox {}
+
+.inputWrapper {
+    width: 220px;
+    float: left;
+    color: white;
+   
+}
+
+.buttonWrapper {
+    width: 50px;
+    background: orange;
+    float: left;
+    color: white;
+    
+}
+
+.buttonWrapper input {
+    background: orange;
+    border: none;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.inputWrapper input {
+    width: 100%;
+    border:none;
+    padding-left: 20px;
+}
+
+.searchBoxWrapper input {
+    padding: 15px;
+}
+
+ul.pramaryMenue li.searchBoxLi:hover .searchBoxWrapper{
+	
+	transform:scaleY(1);
+	}
+
+div#jssor_1{
+	width:100%; !important;
+	height:450px;
+	
+}
+
+
+section#homeSlider {
+    position: absolute;
+    top: 11px;
+    width: 100%;
+    z-index: 0;
+    margin: 22px;
+	padding:0px;
+}
+
+header#mainHeader {
+    position: relative;
+    z-index: 35;
+}
+section#service-section {
+    margin-top: 500px;
+}
+.topHeader {
+    background: white;
+}
+.ourgoal-content p {
+    margin-bottom: 20px;
+}
+section#ourGoal {
+    background: linear-gradient(#1735cc9e,#0000004a), url(../screenshot_26.png);
+    padding:70px 0px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ourgoal-content {
+    color: white;
+    width: 550px;
+    text-align: justify;
+    float: left;
+}
+
+.ourgoal-content h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+span {}
+
+.ourgoal-content h2 span {
+    font-weight: 200;
+}
+
+
+
+
+.goal-counter {
+    width: 655px;
+    float: right;
+    color: white;
+}
+
+.counters {
+    width: 250px;
+    height: 150px;
+    border: 1px solid white;
+    float: left;
+    margin: 18px 18px;
+    font-size: 12px;
+    text-align: center;
+    transition:0.3s;
+}
+
+.counters h2 {
+    margin-bottom: 28px;
+}
+.counters h2:nth-child(1){
+	font-size:35px;
+}
+.counter-text {
+    margin-top: 28px;
+}
+
+.counters:hover {
+    background: orange;
+    cursor: pointer;
+}
+
+.titleWrapper {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    line-height: 28px;
+}
+
+.titleWrapper span {
+    display: block;
+    margin-top: 10px;
+	color:#666;
+}
+
+.titleWrapper h2 {
+    color: #11193d;
+    font-size: 30px;
+}
+
+.titleWrapper h2 span {
+    display: inline;
+    color: #11193d;
+    font-weight: 100;
+}
+
+section#ourGellary {
+    background: #f2f8f9;
+}
+
+.gellaryBox {
+	
+width: 350px;
+	
+float:left;
+	
+margin: 25px;
+	
+position: relative;
+overflow:hidden;
+border-radius:10px;
+}
+
+.gellaryWrapper {
+    margin-top: 70px;
+}
+
+.box-inner {
+	transform:scale(0);
+    position: absolute;
+    top: 0px;
+    background: #11193da6;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 100%;
+    display: grid;
+    place-items: center;
+	transition:0.3s;
+	
+}
+
+.img-over {line-height: 32px;}
+
+.viewButton {
+    margin-top: 30px;
+	margin:auto;
+	padding:10px;
+	height:30px;
+	width:30px;
+	transition:0.3s;
+}
+.gellaryBox:hover .box-inner{
+	
+	
+	transform:scale(1);
+}
+.viewButton:hover{
+	background:orange;
+}
+
+
+
+
+
+.gellary2Page {
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    line-height: 22px;
+    padding: 20px;
+	
+}
+
+h2.gellaryTitle {
+    padding: 20px;
+   
+    font-size: 34px;
+}
+.gellary2Page p {
+    color: #7f7f7f;
+    margin: 12px;
+}
+
+
+.gellary2Page h2 span {
+    font-weight: 300;
+}
+
+
+.gellary2Contant {
+    width: 170px;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    height: 168px;
+    float: left;
+    margin: 15px;
+    padding: 8px;
+    /* margin-bottom: 501px; */
+    display: block;
+}
+
+.gellary2Contant i {
+    font-size: 45px;
+    padding: 17px;
+    margin: 1px;
+    color: #7f7f7f73;
+}
+
+h3.Contantheader {
+    padding: 5px;
+}
+
+.gellary2Contant span {
+    padding: 11px;
+}
+
+.gellary2img {
+    width: 450px;
+    float: left;
+}
+.allgellaer2page {
+    width: 730px;
+    float: right;
+    margin-top: -16px;
